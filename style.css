@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 70%;
     margin: 5% auto;
     min-height: auto;
     padding: 20px;
@@ -23,11 +23,11 @@ a {
 h1 {
     text-align: center;
     margin: 10px 0;
-    padding: 5%;
+    padding: 2%;
 }
 
 h2 {
-    padding-top: 5%;
+    padding-top: 1%;
     margin: 20px 0;
 }
 
