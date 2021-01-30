@@ -12,40 +12,51 @@
 
 <body>
     <header class="cv">
-        <div class="photo"></div>
         <div class="title"></div>
         <h1>Tkachenko Elena</h1>
-        <img class="photo" src="images/my_photo.jpg" alt="Elena Tkachenko photo">
+        <div class="photo">
+            <img src="images/my_photo.jpg" alt="Elena Tkachenko photo">
+        </div>
         <div class="contacts">
-            <div><img src="images/location.png" alt="location"> Moscow, Russia</div>
-            <div><img src="images/telegram.png" alt="telegram"><a href="https://t.me/tkachiko"> tkachiko</a></div>
-            <div><img src="images/email.png" alt="email">
-                <a href="mailto:tkachikos@gmail.com"> tkachikos@gmail.com</a>
-            </div>
-            <div class="icon"><img src="images/github.png" alt="github"><a href="https://github.com/tkachiko/"> tkachiko</a></div>
+            <ul>
+                <li><img src="images/location.png" alt="location"> Moscow, Russia</li>
+                <li><img src="images/telegram.png" alt="telegram"><a href="https://t.me/tkachiko"> tkachiko</a></li>
+                <li><img src="images/email.png" alt="email">
+                    <a href="mailto:tkachikos@gmail.com"> tkachikos@gmail.com</a>
+                </li>
+                <li class="icon"><img src="images/github.png" alt="github"><a href="https://github.com/tkachiko/"> tkachiko</a></li>
+            </ul>
         </div>
-        <div class="skills">
+        <section class="skills">
             <h4>Technologies</h4>
-            <div>- JavaScript (ES6, React, Redux)</div>
-            <div>- HTML5/CSS3</div>
-            <div>- REST APIs</div>
-            <div>- Git</div>
-            <div>- VS Code</div>
-        </div>
+            <ul>
+                <li>JavaScript (ES6, React, Redux)</li>
+                <li>HTML5/CSS3</li>
+                <li>REST APIs</li>
+                <li>Git</li>
+                <li>VS Code</li>
+            </ul>
+        </section>
     </header>
     <main class="cv">
-        <h2 class="summary">Summary</h2>
+        <article class="summary">
+            <h2>Summary</h2>
+        </article>
         <div class="limit">
             <p>I've started studying web-development not so long ago and I am not very good at it by far. But since the time I've started my education, I'm learning new things every day, and I really like it. I'm doing my best and I hope to succeed in becoming
                 a demand front-end developer. I think this is a great opportunity for me to develop my personal and professional skills.<br>Programming has power to change the world and people's lives to better.</p>
         </div>
-        <h2 class="code-example">Code example</h2>
+        <section class="code-example">
+            <h2>Code example</h2>
+        </section>
         <pre><code> 
                 function isPalindrome(line) { 
                     return line == line.toString().split('').reverse().join(''); 
                 }
                 </code></pre>
-        <h2 class="education">Education</h2>
+        <section class="education">
+            <h2>Education</h2>
+        </section>
         <ul>
             <li>
                 HTML, CSS @<a href="https://www.freecodecamp.org">FreeCodeCamp</a>
@@ -55,7 +66,9 @@
                 <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">it-kamasutra</a> youtube channel
             </li>
         </ul>
-        <h2 class="language">Language</h2>
+        <section class="language">
+            <h2>Language</h2>
+        </section>
         <ul class="language-items">
             <li>Russian (Native)</li>
             <li>English (B2, Upper-intermediate)</li>
