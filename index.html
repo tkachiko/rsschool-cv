@@ -1,82 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <title>CV-Elena-Tkachenko</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Elena Tkachenko CV</title>
-</head>
-
-<body>
-    <header class="cv">
-        <div class="title"></div>
-        <h1>Tkachenko Elena</h1>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
         <div class="photo">
-            <img src="images/my_photo.jpg" alt="Elena Tkachenko photo">
+          <img src="images/my-photo.jpg" alt="Elena Tkachenko photo" />
         </div>
-        <div class="contacts">
-            <ul>
-                <li><img src="images/location.png" alt="location"> Moscow, Russia</li>
-                <li><img src="images/telegram.png" alt="telegram"><a href="https://t.me/tkachiko"> tkachiko</a></li>
-                <li><img src="images/email.png" alt="email">
-                    <a href="mailto:tkachikos@gmail.com"> tkachikos@gmail.com</a>
-                </li>
-                <li class="icon"><img src="images/github.png" alt="github"><a href="https://github.com/tkachiko/"> tkachiko</a></li>
-            </ul>
-        </div>
-        <section class="skills">
-            <h4>Technologies</h4>
-            <ul>
-                <li>JavaScript (ES6, React, Redux)</li>
-                <li>HTML5/CSS3</li>
-                <li>REST APIs</li>
-                <li>Git</li>
-                <li>VS Code</li>
-            </ul>
-        </section>
-    </header>
-    <main class="cv">
-        <article class="summary">
-            <h2>Summary</h2>
-        </article>
-        <div class="limit">
-            <p>I've started studying web-development not so long ago and I am not very good at it by far. But since the time I've started my education, I'm learning new things every day, and I really like it. I'm doing my best and I hope to succeed in becoming
-                a demand front-end developer. I think this is a great opportunity for me to develop my personal and professional skills.<br>Programming has power to change the world and people's lives to better.</p>
-        </div>
-        <section class="code-example">
-            <h2>Code example</h2>
-        </section>
-        <code>
-            <pre>
-function isPalindrome(line) { 
-    return line == line.toString().split('').reverse().join(''); 
-}
-            </pre>
-        </code>
-        <section class="education">
-            <h2>Education</h2>
-        </section>
-        <ul>
+        <section class="block">
+          <h3 class="section-heading">contacts</h3>
+          <ul class="contacts">
             <li>
-                HTML, CSS @<a href="https://www.freecodecamp.org">FreeCodeCamp</a>
+              <img src="images/location.png" alt="location" class="icon" />
+              <span class="contacts__text">Moscow, Russia</span>
             </li>
             <li>
-                <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">react-way-of-samuray</a> @
-                <a href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g">it-kamasutra</a> youtube channel
+              <img src="images/telegram.png" alt="telegram" class="icon" />
+              <a href="https://t.me/tkachiko">
+                <span class="contacts__text">tkachiko</span>
+              </a>
             </li>
-        </ul>
-        <section class="language">
-            <h2>Language</h2>
+            <li>
+              <img src="images/email.png" alt="email" class="icon" />
+              <a href="mailto:tkachikos@gmail.com">
+                <span class="contacts__text">tkachikos@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <img src="images/github.png" alt="github" class="icon" />
+              <a href="https://github.com/tkachiko/">
+                <span class="contacts__text">tkachiko</span>
+              </a>
+            </li>
+          </ul>
         </section>
-        <ul class="language-items">
-            <li>Russian (Native)</li>
-            <li>English (B2, Upper-intermediate)</li>
-            <li>Finnish (A2, Elementary)</li>
-        </ul>
-    </main>
-</body>
-
+        <section class="block">
+          <h3 class="section-heading">skills</h3>
+          <ul class="skills">
+            <li>JavaScript</li>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+            <li>HTML5/CSS3</li>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+            <li>React (Basic)</li>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+            <li>Git, GitHub</li>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+            <li>VS Code</li>
+            <div class="bar">
+              <div class="progress"></div>
+            </div>
+          </ul>
+        </section>
+      </aside>
+      <main class="main-info">
+        <header class="header">
+          <h1 class="main-heading">Tkachenko Elena</h1>
+          <h2 class="sub-heading">Frontend developer</h2>
+        </header>
+        <div class="container">
+          <section class="block">
+            <h3 class="section-heading">summary</h3>
+            <article class="summary">
+              <p>
+                I am considering a career change and my goal is to improve theoretical knowledge, get practical experience in building beautiful web applications and become a demand
+                Frontend Developer. I have excellent ability to learn, pay careful attention to details, have good analytical and multitasking skills, strong verbal and written
+                communication in English.
+              </p>
+            </article>
+          </section>
+          <section class="block">
+            <h3 class="section-heading">projects</h3>
+            <div class="project">
+              <a href="https://tkachiko.github.io/wildlife/">
+                <span>Wildlife</span>
+              </a>
+              <span> &#8212; HTML & CSS</span>
+            </div>
+              <div class="project">
+                <a href="https://tkachiko.github.io/virtual-piano/">
+                  <span>Virtual piano</span>
+                </a>
+                <span> &#8212; JS</span>
+              </div>
+              <div class="project">
+                <a href="https://tkachiko.github.io/photo-filter/">
+                  <span>Photo filter</span>
+                </a>
+                <span> &#8212; JS</span>
+              </div>
+          </section>
+          <section class="block">
+            <h3 class="section-heading">education</h3>
+            <ul class="education">
+              <li>
+                <span class="year">2021</span>
+                <span> &#8212; </span>
+                <span class="year">2021</span>
+                <a href="https://rs.school">
+                  <span>Rolling Scopes School</span>
+                </a>
+                <span> &#8212; JS/Front-end</span> 
+              </li>
+              <li>
+                <span class="year">2020</span>
+                <span> &#8212; </span>
+                <span class="year">2021</span>
+                  <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">React way of samurai</a>
+                  <span>&#8212; React/Redux</span>
+              </li>
+              <li>
+                <span class="year">2020</span>
+                <span> &#8212; </span>
+                <span class="year">2020</span>
+                <a href="https://www.freecodecamp.org">FreeCodeCamp</a>
+                <span>&#8212; HTML, CSS, JS</span>
+              </li>
+            </ul>
+          </section>
+          <section class="block">
+            <h3 class="section-heading">language</h3>
+            <ul class="languages">
+              <li>Russian (Native)</li>
+              <li>English (B2, Upper-intermediate)</li>
+              <li>Finnish (A2, Elementary)</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>

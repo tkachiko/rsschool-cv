@@ -7,25 +7,25 @@
 **GitHub:** *[tkachiko](https://github.com/tkachiko/)*
 
 ## About me
-I've started studying web-development not so long ago and I am not very good at it by far. But since the time I've started my education, I'm learning new things every day, and I really like it. I'm doing my best and I hope to succeed in becoming a demand front-end developer. I think this is a great opportunity for me to develop my personal and professional skills. Programming has power to change the world and people's lives to better.
+I am considering a career change and my goal is to improve theoretical knowledge, get practical experience in building beautiful web applications and become a Front-end Developer. I have excellent ability to learn, pay careful attention to details, have good analytical and multitasking skills, strong verbal and written communication in English.
 
 ## Skills
-- JavaScript (ES6, React, Redux)
 - HTML5/CSS3
-- REST APIs
+- JavaScript (ES6, React, Redux)
+- SCC/SASS
+- BEM
 - Git
 - VS Code
 
 # Code example
-```
-function isPalindrome(line) {
-  return line == line.toString().split('').reverse().join('');
-}
-```
+– [Wildlife](https://tkachiko.github.io/wildlife/)
+- [Virtual piano](https://tkachiko.github.io/virtual-piano/)
+- [Photofilter](https://tkachiko.github.io/photo-filter/)
 
 ## Education
-[FreeCodeCamp](https://www.freecodecamp.org/)
+[Rolling Scopes School](https://rs.school)
 [react-way-of-samuray](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8) @[it-kamasutra youtube channel](https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g)
+[FreeCodeCamp](https://www.freecodecamp.org/)
 
 ## Language
 Russian (Native)
